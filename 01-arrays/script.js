@@ -16,14 +16,17 @@ const teachers = ["Nathan", "Ed", "Fabio", "Phil", "Carlo", "Lewis", "Luca"]; //
 // console.log(fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
-teachers.splice (5,1,"Patrick")
+// teachers.splice (5,1,"Patrick")
+// console.log(teachers)
+
+// 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto 
+const lastTeacher = teachers.pop();
 console.log(teachers)
 
-// 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto SERVE POP
-const lastTeacher = null;
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
+
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 
