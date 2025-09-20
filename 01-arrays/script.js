@@ -51,10 +51,15 @@ const teachers = ["Nathan", "Ed", "Fabio", "Phil", "Carlo", "Lewis", "Luca"]; //
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
-const teachersString = teachers.join(", ")
-console.log(teachersString)
+// const teachersString = teachers.join(", ")
+// console.log(teachersString)
 
 
 // 10. Verifica se l'array teachers è vuoto MI ASPETTTO COME RISULATO VERO O FALSO
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+
+const isTeachersEmpty = (teachers.length === 0) ? "array vuoto" : "array pieno";
+
+console.log(isTeachersEmpty);
+
+
